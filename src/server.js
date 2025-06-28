@@ -35,8 +35,6 @@ app.use(errorHandler);
 // DB Init
 initDB();
 
-console.log('asd')
-
 // Socket Init
 initSocket(io);
 app.set('io', io);
